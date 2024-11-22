@@ -6,7 +6,7 @@ from matplotlib import rcParams
 rcParams['font.family'] = 'SimHei'
 rcParams['axes.unicode_minus'] = False
 # 已知波峰波谷坐标
-y = np.array([0, np.pi/2, 0, - np.pi/2, 0git ])
+y = np.array([0, np.pi/2, 0, - np.pi/2, 0])
 x = np.array([0, 1, 2, 3, 4])
 
 # 样条插值
